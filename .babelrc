@@ -1,0 +1,26 @@
+{
+  "presets": [
+    "@babel/preset-env",
+  ],
+  "plugins": [
+    [
+      "babel-plugin-root-import",
+      {
+        "paths": [
+          {
+            "rootPathSuffix": "./src/api",
+            "rootPathPrefix": "@api"
+          },
+          {
+            "rootPathSuffix": "./src/config",
+            "rootPathPrefix": "@config"
+          },
+          {
+            "rootPathSuffix": "./src/utils",
+            "rootPathPrefix": "@utils"
+          }
+        ]
+      }
+    ]
+  ]
+}
