@@ -1,4 +1,4 @@
-# Simple Express API for trailee developer
+# Simple Express API for trainee developer
 
 ## How to run app local
 ### Clone Project:
